@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Mouse",
+        "category": "Electronics",
+        "description": "A sleek wireless mouse with adjustable DPI settings.",
+        "image": "https://i.ibb.co.com/51ywnC3/computer-mouse-near-laptop-neon-lighting-closeup.jpg",
+        "isFeature": true,
+        "price": 15.99
+    },
+    {
+        "id": 2,
+        "name": "Gaming Keyboard",
+        "category": "Electronics",
+        "description": "RGB backlit mechanical keyboard for gaming enthusiasts.",
+        "image": "https://i.ibb.co.com/L5Tmch6/keyboard-with-neon-lights-high-angle.jpg",
+        "isFeature": false,
+        "price": 49.99
+    },
+    {
+        "id": 3,
+        "name": "Water Bottle",
+        "category": "Accessories",
+        "description": "Eco-friendly stainless steel water bottle.",
+        "image": "https://i.ibb.co.com/T1jmrPD/pexels-cottonbro-5274533.jpg",
+        "isFeature": true,
+        "price": 12.50
+    },
+    {
+        "id": 4,
+        "name": "Running Shoes",
+        "category": "Footwear",
+        "description": "Comfortable and lightweight running shoes.",
+        "image": "https://i.ibb.co.com/74x4RH8/pexels-mnzoutfits-1599005.jpg",
+        "isFeature": false,
+        "price": 65.00
+    },
+    {
+        "id": 5,
+        "name": "Backpack",
+        "category": "Accessories",
+        "description": "Durable backpack with multiple compartments.",
+        "image": "https://i.ibb.co.com/GFN23Xj/pexels-bertellifotografia-2905238.jpg",
+        "isFeature": true,
+        "price": 35.00
+    },
+    {
+        "id": 6,
+        "name": "Smartphone",
+        "category": "Electronics",
+        "description": "Latest smartphone with advanced features.",
+        "image": "https://i.ibb.co.com/6tFjKGf/pexels-tracy-le-blanc-67789-607812.jpg",
+        "isFeature": false,
+        "price": 699.99
+    },
+    {
+        "id": 7,
+        "name": "Sunglasses",
+        "category": "Accessories",
+        "description": "Polarized sunglasses for UV protection.",
+        "image": "https://i.ibb.co.com/ngwPcmr/pexels-jessbaileydesign-735273.jpg",
+        "isFeature": true,
+        "price": 25.00
+    },
+    {
+        "id": 8,
+        "name": "Coffee Maker",
+        "category": "Home Appliances",
+        "description": "Compact coffee maker for quick brewing.",
+        "image": "https://i.ibb.co.com/X7s6LL8/pexels-chevanon-324028.jpg",
+        "isFeature": false,
+        "price": 89.99
+    },
+    {
+        "id": 9,
+        "name": "Yoga Mat",
+        "category": "Fitness",
+        "description": "Non-slip yoga mat with extra cushioning.",
+        "image": "https://i.ibb.co.com/pf7tjvt/young-woman-with-yoga-essentials.jpg",
+        "isFeature": true,
+        "price": 19.99
+    },
+    {
+        "id": 10,
+        "name": "Wireless Earbuds",
+        "category": "Electronics",
+        "description": "Noise-cancelling wireless earbuds with long battery life.",
+        "image": "https://i.ibb.co.com/pPLqbsh/wireless-earbuds-with-neon-cyberpunk-style-lighting.jpg",
+        "isFeature": false,
+        "price": 49.99
+    }
+]
