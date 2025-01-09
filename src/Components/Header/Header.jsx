@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Header = ({ select_product }) => {
+const Header = ({ select_product, price }) => {
     return (
         <div className="bg-teal-400 text-white py-8">
             <div className="w-8/12 mx-auto flex items-center justify-between">
@@ -9,7 +9,7 @@ const Header = ({ select_product }) => {
                     <p>Home</p>
                     <p>Product</p>
                     <p>Cart: {select_product.length}</p>
-                    <p>$ 500</p>
+                    <p>$ {price}</p>
                 </div>
             </div>
         </div>
@@ -17,6 +17,7 @@ const Header = ({ select_product }) => {
 };
 
 Header.propTypes = {
-    select_product: PropTypes.array.isRequired
+    select_product: PropTypes.array.isRequired,
+    price: PropTypes.number.isRequired
 }
 export default Header;

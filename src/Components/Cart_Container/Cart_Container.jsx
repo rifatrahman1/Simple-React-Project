@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import './Cart_Container.css'
 import Cart from '../Cart/Cart';
 import About from '../About/About';
-const Cart_Container = ({ handle_is_active, is_active, select_product }) => {
+const Cart_Container = ({ handle_is_active, is_active, select_product, handle_deleted }) => {
     return (
         <div>
             <h1 className="text-4xl">Cart Container</h1>
@@ -12,7 +12,7 @@ const Cart_Container = ({ handle_is_active, is_active, select_product }) => {
             </div>
             <div className='mt-10'>
                 {
-                    is_active.cart ? <Cart select_product={select_product}></Cart> : <About></About>
+                    is_active.cart ? <Cart handle_deleted={handle_deleted} select_product={select_product}></Cart> : <About></About>
                 }
             </div>
         </div>
@@ -23,7 +23,8 @@ const Cart_Container = ({ handle_is_active, is_active, select_product }) => {
 Cart_Container.propTypes = {
     handle_is_active: PropTypes.func.isRequired,
     is_active: PropTypes.object.isRequired,
-    select_product: PropTypes.array.isRequired
+    select_product: PropTypes.array.isRequired,
+    handle_deleted: PropTypes.func.isRequired
 }
 
 export default Cart_Container;
